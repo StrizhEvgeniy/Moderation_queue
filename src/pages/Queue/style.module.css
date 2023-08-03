@@ -1,0 +1,57 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  text-align: start;
+
+  background: none;
+
+  border: none;
+  padding: 0;
+}
+
+.dot {
+  margin: 0 6px;
+
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.green {
+  background-color: #88bd35;
+}
+
+.orange {
+  background-color: #f7882e;
+}
+
+.blue {
+  background-color: #1764cc;
+}
+
+.buttonFlex {
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+}
+
+.hotkey {
+  width: 88px;
+}

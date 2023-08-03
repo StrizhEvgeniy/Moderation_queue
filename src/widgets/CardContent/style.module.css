@@ -1,0 +1,15 @@
+.vertical_line {
+  border-left: 1px solid #e4e4e4;
+  height: 400px;
+  margin: 0 16px;
+}
+
+.flexContainer {
+  display: flex;
+  width: 1000px;
+  align-items: flex-start;
+}
+
+.content {
+  padding: 0 20px 36px;
+}

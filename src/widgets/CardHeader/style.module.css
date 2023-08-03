@@ -1,0 +1,11 @@
+.CardHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 1114px;
+  padding: 12px 20px;
+}
+
+.hrHeader {
+  background-color: white;
+  height: 1px;
+}

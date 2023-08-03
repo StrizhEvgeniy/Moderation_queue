@@ -1,0 +1,15 @@
+.CardImg {
+  height: 48%;
+  margin-bottom: 16px;
+}
+
+.CardImg:first-child {
+  padding-top: 8px;
+}
+
+.CardImageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 19%;
+}

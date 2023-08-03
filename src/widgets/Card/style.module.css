@@ -1,0 +1,50 @@
+.Card {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.25);
+
+  text-align: left;
+  white-space: normal;
+
+  position: relative;
+
+  margin: 20px;
+}
+
+.approve {
+  box-shadow: 0px 1px 8px 0px rgb(38, 255, 0);
+}
+
+.decline {
+  box-shadow: 0px 1px 8px 0px rgb(255, 140, 0);
+}
+.escalate {
+  box-shadow: 0px 1px 8px 0px rgb(0, 132, 255);
+}
+
+.Card:focus {
+  box-shadow: 10px 10px 80px 10px rgba(0, 0, 0, 0.25);
+}
+
+.Card.approve:focus {
+  box-shadow: 10px 10px 80px 10px rgba(38, 255, 0, 0.912);
+}
+.Card.decline:focus {
+  box-shadow: 10px 10px 80px 10px rgba(255, 140, 0, 0.994);
+}
+.Card.escalate:focus {
+  box-shadow: 10px 10px 80px 10px rgb(0, 132, 255);
+}
+
+.Card:focus-visible {
+  outline: none;
+}
+
+.text__area {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 28%;
+  height: 100%;
+}
